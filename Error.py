@@ -87,7 +87,7 @@ def login():
         print banner1
         print G+'    Login Your Facebook Account'+N
         id = raw_input( V + '    Email ' + R + ' > ' + W)
-        pwd = getpass.getpass( V + '    Paswd ' + R + ' > ' + W)
+        pwd = getpass( V + '    Paswd ' + R + ' > ' + W)
         os.system('clear')
         load()
         try:
