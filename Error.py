@@ -51,7 +51,7 @@ success = "\033[1;32mSuccessful\033[0m"
 failed = "\033[1;31mFailed\033[0m"
 
 
-banner1 = """
+banner1="""
 
                     ./ymM0dayMmy/.
                   -+dHJ5aGFyZGVyIQ==+-
