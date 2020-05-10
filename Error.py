@@ -57,8 +57,6 @@ banner1="""
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;96m▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇\033[1;91m  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇  03094161457 ▇▇"""
-def load():
-    loading(G + '\r[*] Please Wait... \n')
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -93,7 +91,7 @@ def login():
         id = raw_input( V + '    Email ' + R + ' > ' + W)
         pwd = raw_input( V + '    Paswd ' + R + ' > ' + W)
         os.system('clear')
-        load()
+        tik()
         try:
             br.open('https://m.facebook.com')
         except mechanize.URLError:
