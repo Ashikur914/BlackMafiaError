@@ -214,13 +214,13 @@ def pilih_super():
         pilih_super()
     elif peak == '1':
         os.system('clear')
-		print banner1
-		idt = raw_input("\033[1;96m☆ \033[1;92mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;92m====================\033[1;91mKali.linux\033[1;92m======================"
-		try:
-			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
-			op = json.loads(jok.text)
-			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
+	print banner1
+	idt = raw_input("\033[1;96m☆ \033[1;92mEnter ID\033[1;93m: \033[1;97m")
+	print "\033[1;92m====================\033[1;91mKali.linux\033[1;92m======================"
+	try:
+		jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+		op = json.loads(jok.text)
+		print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
 		except KeyError:
 			print"\x1b[1;92mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
