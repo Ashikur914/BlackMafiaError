@@ -1,18 +1,16 @@
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
+#!/usr/bin/python2
+#coding=utf-8
+#The Credit For This Code Goes To lovehacker
+#If You Wanna Take Credits For This Code, Please Look Yourself Again...
+#Reserved2020
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
-
-try:
-    import requests
-except ImportError:
-    os.system("pip2 install requests")
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-
 try:
     import mechanize
 except ImportError:
     os.system("pip2 install mechanize")
-
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
@@ -37,6 +35,13 @@ W = '\033[1;97m'
 G = '\033[1;92m'
 N = '\033[1;0m'
 Y = '\033[1;93m'
+'\033[1;91m'
+'\033[1;92m'
+'\033[1;93m'
+'\033[1;94m'
+'\033[1;95m'
+'\033[1;96m'
+'\033[1;97m'
 good = "\033[1;32m[\033[1;36m+\033[1;32m]\033[0m"
 bad = "\033[1;32m[\033[1;31m!\033[1;32m]\033[0m"
 #word
