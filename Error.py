@@ -26,6 +26,12 @@ def loading(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.01)
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.01)
+
 ###########################################################################
 #                              Color                                      #
 ###########################################################################
