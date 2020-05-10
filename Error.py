@@ -59,6 +59,10 @@ banner1="""
 \033[1;93m▇▇ WhatsApp Num ▇▇\033[1;93m  ▇▇  03094161457 ▇▇"""
 def load():
     loading(G + '\r[*] Please Wait... \n')
+def tik():
+	titik = ['.   ','..  ','... ']
+	for o in titik:
+		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 back = 0
 threads = []
 berhasil = []
