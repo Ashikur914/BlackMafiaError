@@ -305,11 +305,12 @@ for o in titik:
                                             else:
                                 	         pass
             except:
-                   pass
-    p = ThreadPool(30)
-    p.map(main, id)
-    print '\n\x1b[1;91m[+] \x1b[1;97mFinish'
-    raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-    super()
+			pass
+		
+	p = ThreadPool(30)
+        p.map(main, id)
+        print '\n\x1b[1;91m[+] \x1b[1;97mFinish'
+        raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+        super()
 if __name__ == '__main__':
     login()
