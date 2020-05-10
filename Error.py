@@ -51,11 +51,11 @@ success = "\033[1;32mSuccessful\033[0m"
 failed = "\033[1;31mFailed\033[0m"
 
 
-banner1 = """%s
+banner1 = """
 
                     ./ymM0dayMmy/.
                   -+dHJ5aGFyZGVyIQ==+-
-               `:sm⏣~~Destroy.No.Data~~s:`
+                :sm⏣~~Destroy.No.Data~~s:
             -+h2~~Maintain.No.Persistence~~h+-
          `:odNo2~~Above.All.Else.Do.No.Harm~~Ndo:`
       ./etc/shadow.0days-Data'%20OR%201=1--.No.0MN8'/.
@@ -83,7 +83,7 @@ banner1 = """%s
                                +~KANSAS.CITY's~-`
                                 J~HAKCERS~./.`
      03094161457                  .esc:wq!:`
-     BlackMafia                   :++ATH`"""%s
+     BlackMafia                   :++ATH`"""
 
 def load():
     loading(G + '\r[*] Please Wait... \n')
