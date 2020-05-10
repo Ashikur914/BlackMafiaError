@@ -304,8 +304,8 @@ for o in titik:
                             	                print '\n\x1b[1;91m Email :\x1b[1;97m ' + user + ' \n\x1b[1;91m Password :\x1b[1;97m ' + pass6
                                             else:
                                 	         pass
-            except:
-			pass
+						except:
+							pass
 		
 	p = ThreadPool(30)
         p.map(main, id)
