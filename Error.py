@@ -214,7 +214,7 @@ def pilih_super():
         pilih_super()
     elif peak == '1':
         os.system('clear')
-		print logo
+		print banner1
 		idt = raw_input("\033[1;96m☆ \033[1;92mEnter ID\033[1;93m: \033[1;97m")
 		print "\033[1;92m====================\033[1;91mKali.linux\033[1;92m======================"
 		try:
