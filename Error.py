@@ -70,8 +70,7 @@ logo1 = """
 \033[1;91m                            .esc:wq!:`
 \033[1;91m                            +;+ATH`
 \033[1;92m   BlackMafia WhatsApp Num
-\033[1;95m         03094161457
-print 52 * '\033[1;95m='"""
+\033[1;95m         03094161457"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
