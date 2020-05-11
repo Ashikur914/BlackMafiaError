@@ -232,7 +232,13 @@ def pilih_super():
 	jalan('\033[1;92mPlease Wait\033[1;93m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)			
+		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+                print "\n\033[1;92m«--•◈••◈•---\x1b[1;93m•◈•Stop Process Press CTRL+Z•◈•\033[1;92m---•◈••◈•-»"
+	        print "\033[1;92m•====================•\033[1;91mBlackMafia\033[1;95m•================•"
+	        jalan(' \033[1;93m.....\033[1;94mCloning Start plzzz Wai\033[1;93m.... ')
+	        jalan(' \033[1;93m.....\033[1;94mJis Sy Wi8 Ni hota Wo Bhag jy\033[1;93m.... ')
+	        print "\033[1;92m•====================•\033[1;91mBlackMafia\033[1;95m•================•"
+				
 	def main(arg):
 		global cekpoint,oks
 		user = arg
